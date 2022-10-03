@@ -1,5 +1,5 @@
 {
-    "name": "nguml_ulp_usecase_ner",
+    "name": "nguml_nlp_usecase_ner",
     "lang": "en",
     "version": "1.0.0",
     "spacy_version": ">=1.7.0,<2.0.0",
