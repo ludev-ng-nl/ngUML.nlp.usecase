@@ -1,0 +1,6 @@
+**/dist/**
+**/build/**
+**.egg-info
+
+!/dist/.gitkeep
+venv/**
