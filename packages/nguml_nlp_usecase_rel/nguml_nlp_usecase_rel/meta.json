@@ -1,0 +1,11 @@
+{
+    "name": "nguml_ulp_usecase_rel",
+    "lang": "en",
+    "version": "1.0.0",
+    "spacy_version": ">=1.7.0,<2.0.0",
+    "description": "English model for ngUML Use Case Modeling.",
+    "author": "Anna",
+    "email": "admin@localhost",
+    "url": "https://nguml.com",
+    "license": "CC BY-SA 3.0"
+}
