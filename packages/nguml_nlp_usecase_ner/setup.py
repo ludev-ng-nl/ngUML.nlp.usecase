@@ -37,7 +37,7 @@ def setup_package():
     root = path.abspath(path.dirname(__file__))
     meta_path = path.join(root, 'meta.json')
     meta = load_meta(meta_path)
-    model_name = str(meta['lang'] + '_' + meta['name'])
+    model_name = meta['name']
     model_dir = path.join(model_name, model_name)
 
     copy(meta_path, path.join(model_name))
