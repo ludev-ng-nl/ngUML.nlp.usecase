@@ -30,11 +30,11 @@ pip install https://github.com/ludev-ng-nl/nguml.nlp.usecase/releases/download/1
 Use the models:
 
 ```python
-import en_nguml_nlp_usecase_rel
-import en_nguml_nlp_usecase_ner
+import en_nguml_nlp_usecase_rel as rel
+import en_nguml_nlp_usecase_ner as ner
 
-usecase_rel_nlp = en_nguml_nlp_usecase_rel.load()
-usecase_ner_nlp = en_nguml_nlp_usecase_ner.load()
+usecase_rel_nlp = rel.load()
+usecase_ner_nlp = ner.load()
 ```
 
 ## ⚙️ Development
