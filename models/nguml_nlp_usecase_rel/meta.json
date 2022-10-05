@@ -1,0 +1,46 @@
+{
+    "lang":"en",
+    "name":"nguml_nlp_usecase_rel",
+    "version":"1.0.0",
+    "spacy_version":">=3.2.0,<3.4.2",
+    "description": "English model for ngUML Use Case Modeling.",
+    "author": "Anna",
+    "email": "admin@localhost",
+    "url": "https://nguml.com",
+    "license":"Apache 2.0",
+    "spacy_git_version":"e8674c5c4",
+    "vectors":{
+      "width":0,
+      "vectors":0,
+      "keys":0,
+      "name":null
+    },
+    "labels":{
+      "transformer":[
+  
+      ],
+      "relation_extractor":[
+        "INTERACT",
+        "INCLUDE",
+        "EXTEND"
+      ]
+    },
+    "pipeline":[
+      "transformer",
+      "relation_extractor"
+    ],
+    "components":[
+      "transformer",
+      "relation_extractor"
+    ],
+    "disabled":[
+  
+    ],
+    "performance":{
+      "rel_micro_p":0.8386277001,
+      "rel_micro_r":0.6940063091,
+      "rel_micro_f":0.7594936709,
+      "transformer_loss":0.0752069544,
+      "relation_extractor_loss":3.17392561
+    }
+  }
