@@ -1,6 +1,7 @@
-**/dist/**
-**/build/**
 **.egg-info
-
-!/dist/.gitkeep
 venv/**
+packages/**
+packages/**/
+!packages/**/
+
+models/**/model
