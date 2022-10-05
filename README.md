@@ -23,11 +23,18 @@ source venv/bin/activate
 pip install spacy wheel
 
 # Install the models
-pip install https://github.com/ludev-ng-nl/nguml.nlp.usecase/releases/download/nermodel/nermodel-py3-none-any.whl
-pip install https://github.com/ludev-ng-nl/nguml.nlp.usecase/releases/download/relmodel/relmodel-py3-none-any.whl
+pip install https://github.com/ludev-ng-nl/nguml.nlp.usecase/releases/download/1.0.0/en_nguml_nlp_usecase_ner-1.0.0-py3-none-any.whl
+pip install https://github.com/ludev-ng-nl/nguml.nlp.usecase/releases/download/1.0.0/en_nguml_nlp_usecase_rel-1.0.0-py3-none-any.whl
+```
 
-# Use the models
-...
+Use the models:
+
+```python
+import en_nguml_nlp_usecase_rel
+import en_nguml_nlp_usecase_ner
+
+usecase_rel_nlp = en_nguml_nlp_usecase_rel.load()
+usecase_ner_nlp = en_nguml_nlp_usecase_ner.load()
 ```
 
 ## ⚙️ Development
