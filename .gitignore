@@ -1,7 +1,10 @@
-**.egg-info
 venv/**
+
+**.egg-info
 packages/**
-packages/**/
-!packages/**/
+!packages/*
+!packages/*/meta.json
+!packages/*/README.md
+!packages/*/setup.py
 
 models/**/model
